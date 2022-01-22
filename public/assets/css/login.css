@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background: url("https://wallpapercave.com/wp/wp2890433.jpg");
+    font-family: 'PT Sans';
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  .hide{
+    display: none;
+  }
+  .wrapper{
+    background: rgba(0,0,0,0.6);
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .left,
+  .right{
+    width: 50%;
+  }
+  .left{
+    float: left;
+  }
+  .right{
+    float: right
+  }
+  .back-header,
+  .back-p{
+    margin: 20px;
+    color: #fafafa;
+    letter-spacing: 1px;
+    
+  }
+  .back-header{
+    font-family:'Ubuntu';
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .back-p{
+    font-family: 'PT Sans';
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 60px;
+  }
+  .background button{
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+  }
+  .background .left button{
+    left: 20px;
+  }
+  .background .right button{
+    left: 420px;
+  }
+  .form-container{
+    position: absolute;
+    width: 375px;
+    
+    background-color: white;
+    top: -25px;
+    left: 10px;
+    box-shadow: 9px 13px 16px 0px rgba(0,0,0,0.75);
+  }
+  .sign-up,
+  .login{
+    margin: 40px;
+  }
+  .back-btn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid white;
+    color: #fafafa;
+    transition: .3s all;
+  }
+  .back-btn:hover{
+    background-color: #145977;
+    border: 1px solid #145977;
+  }
+  .form-btn{
+    display: block;
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #FC7D5F;
+    color: #fafafa;
+    transition: .4s all;
+  }
+  .sign-up button:hover,
+  .login button:hover{
+    background-color: #C53716;
+  }
+  .form-header{
+    font-size: 32px;
+    color: #FC7D5F;
+  }
+  .form-container input{
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #888;
+  }
+  input[type="text"],
+  input[type="email"]{
+    color: #555;
+  }
+  .form-container i{
+    margin-left: 10px;
+    margin-bottom: -5px;
+    color: #888;
+  }
+  .login button,
+  .forgot
+  {
+    display: inline-block;
+  }
+  .forgot{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  .forgot:hover{
+    color: #FC7D5F;
+    text-decoration: underline;
+  }
+
+
+
+
+
+  :root {
+    
+    --gray: #34495e;
+    --darkgray: #2c3e50;
+  }
+  
+  select {
+    /* Reset Select */
+    appearance: none;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    /* Personalize */
+    flex: 1;
+    padding: 0 .1em;
+    color: #fff;
+    background-color: var(--darkgray);
+    background-image: none;
+    cursor: pointer;
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select wrapper */
+  .selection {
+    position: relative;
+    display: flex;
+    width: 10em;
+    height: 2em;
+    border-radius: .25em;
+    overflow: hidden;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    overflow: hidden
+}
+
+@media screen and (max-width: 600px
+
+) {
+    body {
+        background-size: cover;
+        
+    }
+}
+
+#particles-js {
+    height: 100%
+}
+
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: #000000;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box
+}
+
+.user {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #59238F;
+    text-align: center
+}
+
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+.loginBox input[type="text"]:hover,
+.loginBox input[type="password"]:hover {
+    color: #42F3FA;
+    border: 1px solid #42F3FA;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .3), 0 0 10px rgba(0, 255, 0, .2), 0 0 15px rgba(0, 255, 0, .1), 0 2px 0 black
+}
+
+.loginBox input[type="text"]:focus,
+.loginBox input[type="password"]:focus {
+    border-bottom: 2px solid #42F3FA
+}
+
+.inputBox {
+    position: relative
+}
+
+.inputBox span {
+    position: absolute;
+    top: 10px;
+    color: #262626
+}
+
+.loginBox button[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #59238F;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.loginBox a {
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block
+}
+
+a:hover {
+    color: #00ffff
+}
+
+p {
+    color: #0000ff
+} */

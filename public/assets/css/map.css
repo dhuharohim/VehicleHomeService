@@ -1,0 +1,22 @@
+.container{
+    padding: 30px;
+    
+}
+
+.poto{
+    max-width: 70%;
+    margin: 0 0 10px 0;
+    
+}
+
+.poto2{
+    max-width: 70%;
+    margin: 0 0 10px 0;
+    background-image: url("https://wallpapercave.com/wp/wp2890433.jpg");
+}
+
+.Review-rating{
+    margin-top: -1rem;
+    margin-bottom: 10px;
+}
+
